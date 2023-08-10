@@ -33,6 +33,7 @@ export class App extends Component {
     return (
       <>
         <Globals></Globals>
+
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={options}

@@ -38,36 +38,11 @@ p {
   color: beige;
 }
 
-div {
-  margin: 50px;
-  width: 500px;
-    background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(228, 215, 215, 0.8) 37%);
-    padding: 10px;
-    border-radius: 10px;
-    border: 4px solid rgba(255, 255, 255, 0.2);
-  }
 
 li{
 list-style: none;
 }
 
-button {
-  width: 140px;
-  border-radius: 20px;
-  color: #3c373e;
-  transition: .2s linear;
-   font-size: 20px;
-   outline: 2px solid rgba(255, 255, 255, 0.4);
-}
-
-button:hover {
-    box-shadow:  0px 0px 5px 2px rgba(255, 255, 255, 1);
-    color: black;
-
-}
 `;
 
 export default Globals;
